@@ -2,7 +2,7 @@
 title: Horizontall
 categories: [HTB]
 tags: retired easy linux
-img_path: assets/img/HTB/horizontall
+img_path: /assets/img/HTB/horizontall/
 ---
 
 ![horizontall.card](Horizontall.png)
