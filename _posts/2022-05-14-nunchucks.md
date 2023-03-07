@@ -2,7 +2,7 @@
 title: Nunchucks
 categories: [HTB]
 tags: retired easy linux
-img_path: assets/img/HTB/nunchucks
+img_path: /assets/img/HTB/nunchucks/
 ---
 
 ![nunchucks.card](Nunchucks.png)

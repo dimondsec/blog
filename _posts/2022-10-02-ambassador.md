@@ -2,7 +2,7 @@
 title: Ambassador
 categories: [HTB]
 tags: retired medium linux
-img_path: assets/img/HTB/ambassador
+img_path: /assets/img/HTB/ambassador/
 ---
 
 ![ambassador.card](Ambassador.png)

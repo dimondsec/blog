@@ -2,7 +2,7 @@
 title: OpenSource
 categories: [HTB]
 tags: retired easy linux
-img_path: assets/img/HTB/opensource
+img_path: /assets/img/HTB/opensource/
 ---
 
 ![opensource.card](OpenSource.png)

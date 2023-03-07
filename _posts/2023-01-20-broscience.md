@@ -2,7 +2,7 @@
 title: BroScience
 categories: [HTB]
 tags: active medium linux
-img_path: assets/img/HTB/BroScience
+img_path: /assets/img/HTB/BroScience/
 ---
 
 ![broscience.card](BroScience.png)

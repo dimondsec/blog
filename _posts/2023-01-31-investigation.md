@@ -2,7 +2,7 @@
 title: Investigation
 categories: [HTB]
 tags: active medium linux
-img_path: assets/img/HTB/investigation
+img_path: /assets/img/HTB/investigation/
 ---
 
 ![investigation.card](Investigation.png)
