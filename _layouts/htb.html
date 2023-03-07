@@ -10,7 +10,7 @@ layout: categories
       {% for post in site.categories.HTB %}
         {% if post.tags contains 'easy' %}
         <li class="d-flex justify-content-between pl-md-3 pr-md-3">
-          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>&nbsp;({{ post.tags | sort | join: " / " }})
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>&nbsp;({{ post.tags | join: " / " }})
             <span class="dash flex-grow-1"></span>
             {% include datetime.html date=post.date wrap='span' class='text-muted small' %}  
         </li>
@@ -27,7 +27,7 @@ layout: categories
       {% for post in site.categories.HTB %}
         {% if post.tags contains 'medium' %}
         <li class="d-flex justify-content-between pl-md-3 pr-md-3">
-          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>&nbsp;({{ post.tags | sort | join: " / " }})
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>&nbsp;({{ post.tags | join: " / " }})
             <span class="dash flex-grow-1"></span>
             {% include datetime.html date=post.date wrap='span' class='text-muted small' %}   
         </li>
