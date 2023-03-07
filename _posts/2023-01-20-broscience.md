@@ -1,13 +1,13 @@
 ---
-title: Bagel
+title: BroScience
 categories: [HTB]
 tags: active medium linux
-img_path: /assets/img/HTB/bagel
+img_path: /assets/img/HTB/BroScience
 ---
 
-![bagel.card](Bagel.png)
+![broscience.card](BroScience.png)
 
-> Bagel is a medium Linux machine from Hack the Box. 
+> BroScience is a medium Linux machine from Hack the Box. 
 {: .prompt-tip }
 
 > Writeup coming soon! You didn't think I'd really have a writeup for an active machine, did you??
