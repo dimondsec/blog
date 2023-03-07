@@ -3,16 +3,21 @@ layout: categories
 #This is a test for tabs in the sidebar nav
 ---
 
-As of right now the only writeup that is available is <a href="http://dimondsec.github.io/posts/writeup/">writeup</a> (ironically), but there are many more coming soon! Below is a list of the machines I have pwnd so far.
+As of right I only have one walkthrough published, but there are many more coming soon!
 
 <h2>Easy</h2>
   
   <div>
     <ul class="post-content pl-0">
       {% for post in site.categories.HTB %}
-        {% if post.tags contains 'easy' %}
+        {% if post.tags contains 'complete' %}
         <li class="d-flex justify-content-between pl-md-3 pr-md-3">
-          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>&nbsp;({{ post.tags | join: " / " }})
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>&nbsp;({% for tag in post.tags %}
+          {% if tag != "complete" %}
+            {{ tag }}
+            {% if forloop.last == false %}/{% endif %}
+          {% endif %}
+        {% endfor %})
             <span class="dash flex-grow-1"></span>
             {% include datetime.html date=post.date wrap='span' class='text-muted small' %}  
         </li>
@@ -21,19 +26,22 @@ As of right now the only writeup that is available is <a href="http://dimondsec.
     </ul>
   </div>
 
+<!--Add new section here for medium, hard when there are completed posts to display-->
 
-  <h2>Medium</h2>
-  
+  <H2>Coming soon!</H2>
+
+  <p>These are the boxes that I have pwned so far and am working on publishing writeups for. Note that I won't publish the writeup until the box has been retired.</p>
+
   <div>
     <ul class="post-content pl-0">
       {% for post in site.categories.HTB %}
-        {% if post.tags contains 'medium' %}
+        {% unless post.tags contains 'complete' %}
         <li class="d-flex justify-content-between pl-md-3 pr-md-3">
           <a href="{{ post.url | relative_url }}">{{ post.title }}</a>&nbsp;({{ post.tags | join: " / " }})
             <span class="dash flex-grow-1"></span>
             {% include datetime.html date=post.date wrap='span' class='text-muted small' %}   
         </li>
-        {% endif %} 
+        {% endunless %} 
       {% endfor %}
     </ul>
   </div>
