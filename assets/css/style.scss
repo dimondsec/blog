@@ -1,0 +1,53 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.hero {
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-image {
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-image::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  margin: 0;
+  padding: 0;
+  line-height: 1.2;
+}
+
+.hero-text p {
+  font-size: 24px;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
