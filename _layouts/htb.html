@@ -2,8 +2,10 @@
 layout: categories
 #This is a test for tabs in the sidebar nav
 ---
+{% assign tag = "complete" %}
+{% assign posts_with_tag = site.tags[tag] %}
 
-As of right I only have one walkthrough published, but there are many more coming soon!
+As of right I only have {{ posts_with_tag | size }} walkthrough{% if posts_with_tag.size > 1 %}s{% endif %} published, but there are many more coming soon!
 
 <h2>Easy</h2>
   
