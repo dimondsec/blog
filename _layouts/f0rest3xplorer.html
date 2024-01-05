@@ -3,6 +3,10 @@ layout: page
 # The Home page layout
 ---
 
+{% assign tag_name = 'complete' %}
+{% assign tag_posts = site.tags[tag_name] %}
+{% assign tag_count = tag_posts | size %}
+
   <section class="hero">
     <div class="hero-image" style="background-image: url('assets/img/hero_cat.jpg')">
       <div class="hero-text">
@@ -15,7 +19,7 @@ layout: page
     <div class="container">
       <h1>Welcome</h1>  
 
-      <p>This site is still under construction and may take a bit for me to finish. Right now I only have two HTB writeup ready, but there should be many more coming soon!</p>
+      <p>This site is still under construction and may take a bit for me to finish. Right now I only have {{ tag_count }} HTB writeup ready, but there should be many more coming soon!</p>
     </div>
   </section>
 
