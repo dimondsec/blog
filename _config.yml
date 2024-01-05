@@ -19,7 +19,7 @@ timezone:
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: dimondsec                          # the main title
+title: f0rest3xplorer                          # the main title
 
 tagline: My journey from marketing to cybersecurity   # it will display as the sub-title
 
@@ -27,23 +27,23 @@ description: >-                        # used by seo meta and the atom feed
   A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: 'https://dimondsec.github.io'
+url: 'https://f0rest3xplorer.github.io'
 
 github:
-  username: dimondsec             # change to your github username
+  username: f0rest3xplorer             # change to your github username
 
 twitter:
-  username: dimondsec            # change to your twitter username
+  username: f0rest3xplorer            # change to your twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: dimondsec
-  email: mtdimond21@gmail.com             # change to your email address
+  name: f0rest3xplorer
+  email: f0rest3xplorer@gmail.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/dimondsec      # change to your twitter homepage
-    - https://github.com/dimondsec       # change to your github homepage
+    - https://twitter.com/f0rest3xplorer      # change to your twitter homepage
+    - https://github.com/f0rest3xplorer      # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
