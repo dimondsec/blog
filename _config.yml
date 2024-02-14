@@ -21,7 +21,7 @@ timezone:
 
 title: f0rest3xplorer                          # the main title
 
-tagline: My journey from marketing to cybersecurity   # it will display as the sub-title
+tagline: Exploring cybersecurity   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
