@@ -1,7 +1,7 @@
 ---
 title: BroScience
 categories: [HTB]
-tags: active medium linux
+tags: retired medium linux
 img_path: /assets/img/HTB/BroScience/
 ---
 
