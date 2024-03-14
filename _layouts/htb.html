@@ -56,24 +56,3 @@ As of right I only have {{ posts_with_tag | size }} walkthrough{% if posts_with_
     {% endfor %}
   </ul>
 </div>
-
-
-<!--Add new section here for medium, hard when there are completed posts to display
-
-  <H2>Coming soon!</H2>
-
-  <p>These are the boxes that I have pwned so far and am working on publishing writeups for. Note that I won't publish the writeup until the box has been retired.</p>
-
-  <div>
-    <ul class="post-content pl-0">
-      {% for post in site.categories.HTB %}
-        {% unless post.tags contains 'complete' %}
-        <li class="d-flex justify-content-between pl-md-3 pr-md-3">
-          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>&nbsp;({{ post.tags | join: " / " }})
-            <span class="dash flex-grow-1"></span>
-            {% include datetime.html date=post.date wrap='span' class='text-muted small' %}   
-        </li>
-        {% endunless %} 
-      {% endfor %}
-    </ul>
-  </div>   -->
