@@ -1,17 +1,3 @@
-
-
-<!--
-<div class="embed-container">
-  <iframe
-      src="https://www.youtube.com/embed/{{ include.id }}"
-      width="700"
-      height="480"
-      frameborder="0"
-      allowfullscreen="true">
-  </iframe>
-</div>
--->
-
 {% assign width = include.width | times: 1.0 %}
 {% assign height = include.height | times: 1.0 %}
 {% assign paddingBottom = height | divided_by: width | times: 100 %}
